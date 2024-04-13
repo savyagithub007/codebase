@@ -1,0 +1,250 @@
+@font-face {
+    font-family: light;
+    src: url(./KFOmCnqEu92Fr1Mu4mxK.ttf);
+}
+
+@font-face {
+    font-family: bold;
+    src: url(./KFOlCnqEu92Fr1MmYUtfBBc4.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: light;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#page1{
+    width: 100%;
+    min-height: 120vh;
+    /* background-color: orangered; */
+    font-family: light;
+}
+
+
+#navigation{
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3vw 6vw;
+    font-family: bold;
+}
+
+#logo img{
+    height: 4vh;
+}
+
+#mymenu ul{
+    display: flex;
+    list-style: none;
+    gap: 4vw;
+}
+
+#mymenu a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.3vw;
+}
+
+#login a{
+    background-color: #4E0FEA;
+    color: #fff;
+    padding: 9px 25px;
+    border-radius: 5px;
+}
+
+
+#services-heading{
+    width: 100%;
+    height: 10vh;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4vw 0;
+}
+
+#heading h1{
+    /* background-color: lightblue; */
+    font-family: bold;
+    text-align: center;
+}
+
+#service-card-container {
+    width: 100%;
+    height: 100vh;
+    /* background-color: lightblue; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 6vw 5vw;
+    margin-bottom: 15vh;
+}
+
+#card-section{
+    width: 28vw ;
+    height: 38vh;
+    /* background-color: purple; */
+    border: 2px solid #EEEEEE;
+    border-radius: 20px;
+    text-align: center;
+    margin: 2vw 0;
+}
+
+#card-section section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px 2vw;
+    gap: 10px;
+}
+
+#card-section section h3{
+    font-size: 1.5vw;
+    font-family: bold;
+}
+
+
+
+#border-logo {
+    width: 28vw;
+    height: 15vh;
+    /* background-color: rgba(255, 68, 0, 0.466); */
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+}
+
+.circle{
+    width: 7vw;
+    height: 14vh;
+    background-color: #fff;
+    border: 2px solid #EEEEEE;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle img{
+    height: 5vw;
+}
+
+
+#page2{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #6032FF;
+    background-image: url(./Service-page-Icons-4-1024x824.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#page3{
+    width: 100%;
+    height: 85vh;
+    background-color: #6032FF;
+}
+
+#page3-section{
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1.5vw 0;
+    gap: 15px;
+}
+
+#page3-section a{
+    color: #ffff;
+    font-size: 1.4vw;
+    text-decoration: none;
+    padding: 12px 35px;
+    background-color: #6032FF;
+    border-radius: 30px;
+}
+
+
+#footer-bottom{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    /* padding: 0 4vw; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+#footer{
+    width: 80vw;
+    height: 45vh;
+    /* background-color: lightblue; */
+    padding: 6vw 0;
+}
+
+#footer img{
+    height: 8vw;
+}
+
+#bottom{
+    /* width: 50vw; */
+    height: 25vh;
+    /* background-color: purple; */
+    border-top: 1px solid #fff;
+    padding: 1vw 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#left-info{
+    width: 19vw;
+    height: 25vh;
+
+}
+
+.icon-info i{
+    color: #fff;
+    font-size: 2vw;
+    padding-right: 8px;
+}
+
+#left-info span{
+    font-size: 0.9vw;
+    line-height: 1vw;
+}
+
+#left-info .blur-span {
+    opacity: .7;
+}
+
+#right-info{
+    width: 15vw;
+    height: 25vh;
+}
+
+.link-info{
+    width: 19vw;
+    height: 25vh;
+    /* background-color: orange; */
+    display: flex;
+    justify-content: right;
+    gap: 2vw;
+}
+
+.link-info a{
+    color: #fff;
+    text-decoration: none;
+
+}
